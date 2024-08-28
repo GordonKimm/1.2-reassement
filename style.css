@@ -1,0 +1,17 @@
+        border-radius: 6px;
+        padding: 7px 15px;
+        text-decoration: none;
+        align-self: start;
+    }
+    
+    .card-link:hover {
+        border: 3px solid tomato;
+        color: tomato;
+        background-color: bisque;
+        padding: 5px 13px;
+        transition: .2s;
+    }
+    
+
+  
+  
