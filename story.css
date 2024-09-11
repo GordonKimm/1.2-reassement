@@ -46,11 +46,11 @@ body {
 
   .navbar {
     display: flex;
-    background-color: #4B4237;
+    background-color: #715f49;
     justify-content: center;
     /* border: 1px solid green; */
     list-style: none;
-    height: 60px
+    height: 70x
   }
 
 
@@ -61,16 +61,16 @@ body {
     padding: 30px;
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 52px;
+    font-size: 60px;
     font-weight: 700;
-    margin-left: 100px;
-    width:2  00px;
+
+    width:200px;
   }
 
 
   .nav-link:hover {
     color: #eee;
-    background-color: #6c5f3f;
+    background-color:  #221b0a;
     transition: .2s;
   }
 
@@ -82,16 +82,41 @@ body {
     margin-left: 300px;
     margin-right: 300px;
     color: #222522 ;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 .prologue-title {
 
-    margin-top: 75px;
+    margin-top: 30px;
     font-size: 40px;
     display: flex; 
     flex-wrap: wrap; /* Allows the cards to move to a new line if they don't fit in one line. */
     /* x axis */
     justify-content: center; 
    /* y axis */
-    align-items: center; s
+    align-items: center; 
+}
+
+
+.further-information {
+    display: flex; 
+    flex-wrap: wrap; /* Allows the cards to move to a new line if they don't fit in one line. */
+    /* x axis */
+    justify-content: center; 
+   /* y axis */
+
+}
+
+
+.junge-regular {
+  font-family: "Junge", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+.link-tag {
+  margin-left: 5px ;
 }

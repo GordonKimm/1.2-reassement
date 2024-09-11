@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .junge-regular {
+    font-family: "Junge", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+  }
+
+.header-box {
+    height: 500px;
+    /* border: 1px solid black; */
+    width: 100%;
+    /* border: 10px solid rgb(244, 244, 135); */
+    background: linear-gradient(#010101, rgba(184, 137, 35, 0.4)), url(./tarnished.jpg) center center no-repeat;
+    background-size: cover;
+    /* enable flexbox rules */
+    display: flex;
+    /* make content appear from top to bottom rather than left to right */
+    flex-direction: column;
+    /* center in one direction */
+    justify-content: center;
+    /* center in the other direction */
+    align-items: center;
+  }
+  
+  .top-title {
+    color: #D7DEDC;
+    /* border: 1px solid black; */
+    font-size: 132px;
+  }
+
+
+.navbar {
+    display: flex;
+    background-color: #4B4237;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    list-style: none;
+    height: 65px;
+    width: 100%;
+  }
+
+
+  .nav-link {
+    /* border: 1px solid red; */
+    color: #D7DEDC ;
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 52px;
+    font-weight: 700;
+ 
+    width:200px;
+    display: flex;
+    background-color: #4B4237;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    list-style: none;
+  }
+
+
+  .nav-link:hover {
+    color: #eee;
+    background-color: #6c5f3f;
+    transition: .2s;
+  }
+  body {
+    background-color: #efe5ba ;
+  }  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    height: 450px; 
+    border-bottom: 4px solid #c3a709;
+    box-shadow: 2px 5px #ffffff;
+    background-color: #302d25;
+    display: flex;
+    flex-direction: column;
+}
+   
+ .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+   
+   .card-text {
+       padding: 15px;
+   }
+   
+   .card-title {
+       color: #E0E2DB;
+   }
+   
+   .card-description { 
+       color: #D7DEDC;
+       margin-top: 15px;
+       margin-bottom: 30px;
+   }
+   
+   .card-link {
+       color: rgb(3, 4, 3);
+       border: 1px solid rgb(255, 255, 255);
+       border-radius: 6px;
+       padding: 7px 15px;
+       text-decoration: none;
+       align-self: start;
+       background-color: #ccbc96;
+   }
+   
+   .card-link:hover {
+       border: 1px solid rgb(217, 214, 177);
+       color: rgb(82, 82, 82);
+       background-color: rgb(220, 210, 160);
+       padding: 7px 15px;
+       transition: .2s;
+   }
+
+
+.Boss-title {
+
+    margin-top: 30px;
+    font-size: 40px;
+    display: flex; 
+    flex-wrap: wrap; /* Allows the cards to move to a new line if they don't fit in one line. */
+    /* x axis */
+    justify-content: center; 
+   /* y axis */
+    align-items: center; 
+}
