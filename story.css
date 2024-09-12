@@ -1,110 +1,114 @@
 body {
-    background-color: #AAC0AA;
+  background-color: #AAC0AA;
 }
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
 
-  body {
-    background-color: #efe5ba ;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #efe5ba;
 }
 
 
 .further-description {
 
-    margin-top: 100px;
+  margin-top: 100px;
 }
+
 .main-text {
 
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .header-box {
-    height: 500px;
-    /* border: 1px solid black; */
-    width: 100%;
-    /* border: 10px solid rgb(244, 244, 135); */
-    background: linear-gradient(#010101, rgba(184, 137, 35, 0.4)), url(./Marika.webp) center center no-repeat;
-    background-size: cover;
-    /* enable flexbox rules */
-    display: flex;
-    /* make content appear from top to bottom rather than left to right */
-    flex-direction: column;
-    /* center in one direction */
-    justify-content: center;
-    /* center in the other direction */
-    align-items: center;
-  }
+  height: 500px;
+  /* border: 1px solid black; */
+  width: 100%;
+  /* border: 10px solid rgb(244, 244, 135); */
+  background: linear-gradient(#010101, rgba(184, 137, 35, 0.4)), url(./Marika.webp) center center no-repeat;
+  background-size: cover;
+  /* enable flexbox rules */
+  display: flex;
+  /* make content appear from top to bottom rather than left to right */
+  flex-direction: column;
+  /* center in one direction */
+  justify-content: center;
+  /* center in the other direction */
+  align-items: center;
+}
 
-  .top-title {
-    color: #D7DEDC;
-    /* border: 1px solid black; */
-    font-size: 132px;
-  }
+.top-title {
+  color: #D7DEDC;
+  /* border: 1px solid black; */
+  font-size: 132px;
+}
 
-  .navbar {
-    display: flex;
-    background-color: #715f49;
-    justify-content: center;
-    /* border: 1px solid green; */
-    list-style: none;
-    height: 70x
-  }
-
-
-  .nav-link {
-    /* border: 1px solid red; */
-    color:  #D7DEDC ;
-    text-decoration: none;
-    padding: 30px;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-size: 60px;
-    font-weight: 700;
-
-    width:200px;
-  }
+.navbar {
+  display: flex;
+  background-color: #715f49;
+  justify-content: center;
+  /* border: 1px solid green; */
+  list-style: none;
+  height: 70x
+}
 
 
-  .nav-link:hover {
-    color: #eee;
-    background-color:  #221b0a;
-    transition: .2s;
-  }
+.nav-link {
+  /* border: 1px solid red; */
+  color: #D7DEDC;
+  text-decoration: none;
+  padding: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 50px;
+  font-weight: 700;
+
+  width: 200px;
+}
+
+
+.nav-link:hover {
+  color: #eee;
+  background-color: #221b0a;
+  transition: .2s;
+}
 
 
 .main-text {
-    
-    border: 4px solid #675d51;
-    text-align: justify;
-    margin-left: 300px;
-    margin-right: 300px;
-    color: #222522 ;
-    padding: 15px;
-    border-radius: 20px;
+
+  border: 4px solid #675d51;
+  text-align: justify;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #222522;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 .prologue-title {
 
-    margin-top: 30px;
-    font-size: 40px;
-    display: flex; 
-    flex-wrap: wrap; /* Allows the cards to move to a new line if they don't fit in one line. */
-    /* x axis */
-    justify-content: center; 
-   /* y axis */
-    align-items: center; 
+  margin-top: 30px;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows the cards to move to a new line if they don't fit in one line. */
+  /* x axis */
+  justify-content: center;
+  /* y axis */
+  align-items: center;
 }
 
 
 .further-information {
-    display: flex; 
-    flex-wrap: wrap; /* Allows the cards to move to a new line if they don't fit in one line. */
-    /* x axis */
-    justify-content: center; 
-   /* y axis */
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows the cards to move to a new line if they don't fit in one line. */
+  /* x axis */
+  justify-content: center;
+  /* y axis */
 
 }
 
@@ -118,5 +122,5 @@ body {
 }
 
 .link-tag {
-  margin-left: 5px ;
+  margin-left: 5px;
 }
